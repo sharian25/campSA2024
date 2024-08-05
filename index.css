@@ -77,3 +77,8 @@ border-radius: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
 }
+
+#link {
+    text-align: center;
+    font-size: xx-large;
+}
