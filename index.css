@@ -82,3 +82,10 @@ border-radius: 50%;
     text-align: center;
     font-size: xx-large;
 }
+
+#lema {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    padding: auto;
+    text-align: center;
+}
