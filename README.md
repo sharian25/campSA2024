@@ -1,2 +1,2 @@
-# campSA
-Pagina para el campamento del sacerdocio Aaronico HJ
+# campHMJ2026
+Pagina para el campamento de Los jóvenes de la Stk Kenney
