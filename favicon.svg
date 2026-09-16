@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Andaré con Cristo">
+  <rect width="64" height="64" rx="14" fill="#19383A"/>
+  <circle cx="32" cy="22" r="9" fill="#FCB445"/>
+  <rect x="0" y="37" width="64" height="7" fill="#53B59E"/>
+  <rect x="0" y="46" width="64" height="7" fill="#1B9C7D"/>
+  <rect x="0" y="55" width="64" height="9" fill="#207F69"/>
+</svg>

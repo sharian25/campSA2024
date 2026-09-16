@@ -1,420 +1,614 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Camp SA-24</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <!--Header-Navbar -->
-    <div class="container">
-    <nav id="header" class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/platzi-logo.png" alt="Logo">
-        </a> 
-        <div id="lema">
-          <h3>Andaré con Cristo</h3>
-          <h4>Campamento HH y MM Jóvenes Estaca Kenney 2026</h4>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Andaré con Cristo | Campamento de jóvenes 2026 – Estaca Kennedy</title>
+  <meta name="description" content="Campamento de Hombres y Mujeres Jóvenes de la Estaca Kennedy: del 5 al 7 de octubre de 2026 en CampoBase Suesca. Inscríbete y alista tu equipaje.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#015582">
+
+  <meta property="og:title" content="Andaré con Cristo | Campamento de jóvenes 2026">
+  <meta property="og:description" content="Campamento de Hombres y Mujeres Jóvenes de la Estaca Kennedy. Del 5 al 7 de octubre de 2026 en CampoBase Suesca.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sharian25.github.io/campSA2024/">
+  <meta property="og:image" content="https://sharian25.github.io/campSA2024/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Andaré con Cristo. Campamento de jóvenes, 5 a 7 de octubre, CampoBase Suesca.">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Estaca Kennedy">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Andaré con Cristo | Campamento de jóvenes 2026">
+  <meta name="twitter:description" content="Del 5 al 7 de octubre de 2026 en CampoBase Suesca. Estaca Kennedy.">
+  <meta name="twitter:image" content="https://sharian25.github.io/campSA2024/assets/og-image.jpg">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" sizes="512x512" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&amp;family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body id="inicio" data-telefonos="todos">
+
+  <a class="salto" href="#contenido">Saltar al contenido</a>
+
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="ico-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+    <symbol id="ico-mapa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></symbol>
+    <symbol id="ico-ig" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07c-1.28.06-2.15.26-2.91.56-.79.31-1.46.72-2.13 1.39C1.35 2.68.93 3.35.63 4.14c-.3.76-.5 1.63-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.28.26 2.15.56 2.91.31.79.72 1.46 1.39 2.13.67.67 1.34 1.08 2.13 1.39.76.3 1.63.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.28-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.13-1.39.67-.67 1.08-1.34 1.39-2.13.3-.76.5-1.63.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.28-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.39-2.13C21.32 1.35 20.65.93 19.86.63c-.76-.3-1.63-.5-2.91-.56C15.67.01 15.26 0 12 0Zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm7.85-10.4a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0Z"/></symbol>
+  </svg>
+
+
+  <header class="encabezado" id="encabezado">
+    <nav class="navbar navbar-expand-lg encabezado__nav" data-bs-theme="dark" aria-label="Navegación principal">
+      <div class="container encabezado__fila">
+
+        <a class="marca" href="#inicio" aria-label="Andaré con Cristo, ir al inicio">
+          <img class="marca__logo" src="assets/images/logo-campamento.png" alt="" width="117" height="40" fetchpriority="high">
+          <span class="marca__texto">Andaré con Cristo</span>
+        </a>
+
+        <a class="boton boton--principal boton--compacto encabezado__cta" data-inscripcion
+           href="https://forms.gle/mnEHFAzVLtoWQJhC9" target="_blank" rel="noopener">Inscríbete</a>
+
+        <button class="navbar-toggler encabezado__palanca" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir el menú">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav" id="navbar">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
 
-                <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                  Lugar
-                </button>
-              </a>
-            </li>
-          
-            <li class="nav-item">
-              <a class="nav-link" href="#lideres">Lideres y Asesores</a>
-            </li>
-            <li class="nav-item dropdown">
-            <li class="nav-item">
-              <a class="nav-link inscribete" href="https://forms.gle/mnEHFAzVLtoWQJhC9">INSCRIBETE</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Docs
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1vUrMaF_v2r4k-duWjwaQbJXCi9vCJgar?usp=sharing" target="_blank">Descargar</a></li>
-                <li><a class="dropdown-item" href="https://forms.gle/CmAqJTEAQYdkES7P6" target="_blank" >Subir</a></li>
-                <!-- <li><a class="dropdown-item" href="#" target="_blank" >Equipaje</a></li> -->
-                <li><a><button type="button" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  Equipaje
-                </button></a></li>
-
-              </ul>
-            </li>
+        <div class="collapse navbar-collapse encabezado__menu" id="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#informacion">Información</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lugar">Lugar</a></li>
+            <li class="nav-item"><a class="nav-link" href="#inscripcion">Inscripción</a></li>
+            <li class="nav-item"><a class="nav-link" href="#equipaje">Equipaje</a></li>
+            <li class="nav-item"><a class="nav-link" href="#lideres">Líderes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#preguntas">Preguntas</a></li>
           </ul>
         </div>
+
       </div>
     </nav>
-    </div>
-    
-    <!-- /Header-navbar -->
+  </header>
 
-    <!-- Main -->
-     <main id="main">
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/images/img1.jpg" class="d-block w-100" alt="hay campamento">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/images/img2.jpg" class="d-block w-100" alt="invitación campamento 1">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/images/img3.png" class="d-block w-100" alt="invitación campamento 2">
-        </div>
-      </div>
-    </div>
-  </main>
-    <!-- /Main -->
-     <div class="overlay">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-6 offset-md-6"> <!-- hacer una consulta para centrar titulo en pantallas pequeñas -->
-                <h1>No Te pierdas Esta Oportunidad!!!</h1> <!-- Cambiar solo es prueba -->
-                <p class="d-none d-md-block">
-                  “Y todos ellos eran jóvenes, y sumamente valientes en cuanto a intrepidez, y también en cuanto a vigor y actividad […]. Sí, eran hombres verídicos y serios, pues se les había enseñado a guardar los mandamientos de Dios y a andar rectamente ante él” (Alma 53:20–21).
-                  </p>
-                  <a href="https://forms.gle/DiZBzwDQ13RyCJgT6" class="btn btn-camp" >Quiero Participar</a>
-              <a href="https://forms.gle/mnEHFAzVLtoWQJhC9" class="btn btn-camp" target="_blank">INSCRIBETE</a></div>
+  <main id="contenido">
 
-            </div>
-          </div>
-      </div>
-     <!-- Lideres y asesores -->
-      <section id="lideres" class="mt-4 mb-4">
-        <div class="container">
-          <div class="row">
-            <div id="small" class="col text-center text-uppercase mb-2" >
-              <small >Conoce a los</small>
-              <h2>lideres y asesores</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/STK.JPG" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">Consejero de STK</span>
-                    <span class="badge text-bg-success">STK</span>
-                  </div>
-                  <h5 class="card-title mb-0">Camilo Camargo</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 300-3132438 </p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/PTE.JPG" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">PTE Hombres Jovenes</span>
-                    <span class="badge text-bg-success">STK</span>
-                  </div>
-                  <h5 class="card-title mb-0">Pedro A. Salinas</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel  316-4154764 </p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/CONS.JPG" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">PTA Mujeres Jovenes</span>
-                    <span class="badge text-bg-success">STK</span>
-                  </div>
-                  <h5 class="card-title mb-0">Anny Quiñones</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 317 2956873 </p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/FON.JPG" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">B. Fontibón</span>
-                    <span class="badge text-bg-info">Obispo</span>
-                  </div>
-                  <h5 class="card-title mb-0">OB. Franklyn Navarro</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 3007008644 </p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/K1.jpg" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">B. Kennedy I</span>
-                    <span class="badge text-bg-info">Obispo</span>
-                  </div>
-                  <h5 class="card-title mb-0">Manuel Lopez</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 314-7871615 </p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/K2.jpg" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">B. Kennedy II</span>
-                    <span class="badge text-bg-info">Obispo</span>
-                  </div>
-                  <h5 class="card-title mb-0">Sergio Rincón</h5>
-                  <p class="card-text"><b>Contacto :</b>Cel 313-8186725 </p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/BAN.jpg" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning"> B. Banderas</span>
-                    <span class="badge text-bg-info">Obispo</span>
-                  </div>
-                  <h5 class="card-title mb-0">Aaron Palacio</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 317-7747369</p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/MAR.jpg" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">B. Marsella</span>
-                    <span class="badge text-bg-info">C.Obispado</span>
-                  </div>
-                  <h5 class="card-title mb-0">Mario Ospina</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 312-3955374</p>
-                  
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-              <div class="card">
-                <!-- <img src="assets/Leaders/MOD.jpg" class="card-img-top" alt="sander"> -->
-                <div class="card-body">
-                  <div class="badges mb-2">
-                    <span class="badge text-bg-warning">B. Modelia</span>
-                    <span class="badge text-bg-info">Obispo</span>
-                  </div>
-                  <h5 class="card-title mb-0">Andres Londoño</h5>
-                  <p class="card-text"><b>Contacto :</b> Cel 310-3390482 </p>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-     <!-- /Lideres y asesores -->
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="titulo-principal">
 
-    <!-- Footer -->
-    <footer id="footer" class="pb-4 pt-4">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12 col-lg">
-                    <a href="https://forms.gle/J5qbbUBtyUKkN6nc7">¿Tienes alguna pregunta?</a>
-                </div>
-                
-            </div>
+      <div class="hero__fondo" aria-hidden="true">
+        <div class="hero__diapo hero__diapo--activa">
+          <img src="assets/images/lugar-4.webp" width="545" height="685" alt="" fetchpriority="high" decoding="async">
         </div>
-    </footer>
-    <!-- /Footer -->
-     
-     <!-- Modal -->
-      <!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button> -->
+        <div class="hero__diapo">
+          <img data-src="assets/images/lugar-2.webp" width="685" height="513" alt="" decoding="async">
+        </div>
+        <div class="hero__diapo">
+          <img data-src="assets/images/lugar-1.webp" width="684" height="689" alt="" decoding="async">
+        </div>
+        <div class="hero__diapo">
+          <img data-src="assets/images/lugar-3.webp" width="684" height="505" alt="" decoding="async">
+        </div>
+        <div class="hero__diapo">
+          <img data-src="assets/images/lugar-5.webp" width="546" height="678" alt="" decoding="async">
+        </div>
+      </div>
 
-<!-- Modal -->
-<div class="modal fade modal-lg" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">CampoBase Suesca</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/images/Base1.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/base2.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/base3.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/base4.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/images/base5.JPG" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-             <iframe
-    id="youtubeVideo"
-    width="760"
-    height="515"
-    src="https://www.youtube.com/embed/KaUJCYGtr-c?autoplay=1&mute=1&controls=0&enablejsapi=1"
-    title="YouTube video player"
-    frameborder="0"
-    allow="autoplay; encrypted-media; picture-in-picture"
-    referrerpolicy="strict-origin-when-cross-origin">
-</iframe>
-            </div>
-             <div class="carousel-item">
-              <p id="link"><a href="https://www.instagram.com/suescacampobase/" target="_blank" id="link" class="btn btn-camp" >Conoce el lugar</a> </p>
-            </div> 
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      <div class="hero__velo" aria-hidden="true"></div>
+
+      <div class="container hero__contenido">
+        <h1 class="hero__titulo">
+          Campamento de Hombres y Mujeres Jóvenes
+          <span class="hero__estaca">Estaca Kennedy 2026</span>
+        </h1>
+
+        <ul class="hero__datos">
+          <li class="hero__dato">Del lunes 5 al miércoles 7 de octubre de 2026</li>
+          <li class="hero__dato">CampoBase Suesca · Suesca, Cundinamarca</li>
+        </ul>
+
+        <div class="hero__acciones">
+          <a class="boton boton--principal" data-inscripcion
+             href="https://forms.gle/mnEHFAzVLtoWQJhC9" target="_blank" rel="noopener">Inscríbete</a>
+          <a class="boton boton--claro" href="#equipaje">Qué llevar</a>
+          <!-- TODO: aclarar para qué sirve el formulario "Quiero participar" y en qué se diferencia de "Inscríbete". Si de verdad son dos cosas distintas, habilita este botón y explícalo en una línea:
+          <a class="boton boton--claro" href="https://forms.gle/DiZBzwDQ13RyCJgT6" target="_blank" rel="noopener">Quiero participar</a>
+          -->
         </div>
-      </div>
-      <!-- <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div> -->
-    </div>
-  </div>
-</div>
-<!-- Modal Equipaje -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Equipaje campamento</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p> <span id="pdf">Copia pdf en Docs</span>         
-<br>📌 Fotocopia certificado o carnet de afiliacion EPS
-<br>📌 Fotocopia de la tarjeta de identidad
-<br>📌 Formato de permiso de los padres debidamente diligenciado y firmado (está para Descargar)
-<br>📌 Escrituras en fisico ( Libro de Mormón, D y C, Biblia e himnario )
-<br>📌 Diario de estudio y lapices
-<br>📌 Ropa suficiente para cambio 3 dias + ropa para ensuciar (ropa interior y medias)
-<br>📌 Zapatos comodos antideslisantes o de agarre (y unos para ensuciar)
-<br>📌 Botas pantaneras (opcional)
-<br>📌 Ropa para lluvia (impermeable, paraguas...etc)
-<br>📌 Pijama
-<br>📌 Elementos de aseo personal (toalla, cepillo, desodorante, crema dental)
-<br>📌 Bolsa para ropa sucia
-<br>📌 Bolsa para tu basura personal
-<br>📌 Bolsa para guardar tu cosas personales (en caso de lluvia) 
-<br>📌 Protector solar, repelente de mosquitos
-<br>📌 Papel higienico
-<br>📌 Medicamentos con formula (en caso de estar medicado )
-<br>📌 Menaje (Plato, cubiertos, Vaso) PLASTICO, NO aluminio, NO vidrio, NO desechable.
-<br>📌 Linterna (preferiblemente de Baterias)
-<br>📌 Cobijas, Sabana, sleeping o colchoneta delgada (si cuenta con estos)
-<br>📌 Plastico grueso (aconsejable calibre 6) en lo posible 4x4 metros
-<br>📌 Pito
-<br>📌 Lazo y/o cuerda suficiente
-<br>📌 2 palos de escoba
-<br> <a href="https://drive.google.com/drive/folders/1vUrMaF_v2r4k-duWjwaQbJXCi9vCJgar?usp=sharing" target="_blank">Descargar Lista</a>
+
+        <p class="cuenta" id="cuenta" aria-live="off">
+          <span class="cuenta__frase">5, 6 y 7 de octubre de 2026</span>
         </p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+      <button class="hero__pausa" type="button" id="hero-pausa" hidden
+              aria-label="Pausar las fotos del fondo">
+        <span class="hero__pausa-icono" aria-hidden="true"></span>
+      </button>
+
+      <div class="franjas" aria-hidden="true">
+        <span class="franjas__linea franjas__linea--1"></span>
+        <span class="franjas__linea franjas__linea--2"></span>
+        <span class="franjas__linea franjas__linea--3"></span>
+      </div>
+    </section>
+
+    <section class="seccion" id="informacion" aria-labelledby="titulo-informacion">
+      <div class="container">
+        <h2 class="seccion__titulo" id="titulo-informacion">La información que tus papás necesitan</h2>
+        <p class="seccion__entrada">Algunos datos todavía los están confirmando los líderes. Apenas se definan aparecen aquí; si los necesitas antes, <a class="enlace" href="#lideres">escríbele a un líder de tu barrio</a>.</p>
+
+        <dl class="datos">
+          <div class="datos__fila datos__fila--clave">
+            <dt>Fechas</dt>
+            <dd>Del lunes 5 al miércoles 7 de octubre de 2026</dd>
+          </div>
+          <div class="datos__fila datos__fila--clave">
+            <dt>Lugar</dt>
+            <dd>CampoBase Suesca — Suesca, Cundinamarca</dd>
+          </div>
+          <div class="datos__fila">
+            <dt>Quiénes van</dt>
+            <!-- TODO: completar edades o requisito de participación -->
+            <dd><span class="pendiente">Pronto confirmamos este dato</span></dd>
+          </div>
+          <div class="datos__fila">
+            <dt>Costo</dt>
+            <!-- TODO: completar costo y qué incluye -->
+            <dd><span class="pendiente">Pronto confirmamos este dato</span></dd>
+          </div>
+          <div class="datos__fila">
+            <dt>Punto de encuentro y salida</dt>
+            <!-- TODO: completar punto de encuentro y hora de salida del 5 de octubre -->
+            <dd><span class="pendiente">Pronto confirmamos este dato</span></dd>
+          </div>
+          <div class="datos__fila">
+            <dt>Regreso</dt>
+            <!-- TODO: completar hora aproximada de regreso del 7 de octubre -->
+            <dd><span class="pendiente">Pronto confirmamos este dato</span></dd>
+          </div>
+          <div class="datos__fila">
+            <dt>Cierre de inscripciones</dt>
+            <!-- TODO: completar fecha límite de inscripción -->
+            <dd><span class="pendiente">Pronto confirmamos este dato</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===================== ESCRITURA ===================== -->
+    <div class="escritura">
+      <div class="container">
+        <blockquote class="escritura__cita">
+          <p class="escritura__texto">«Y todos ellos eran jóvenes, y sumamente valientes en cuanto a intrepidez, y también en cuanto a vigor y actividad […]. Sí, eran hombres verídicos y serios, pues se les había enseñado a guardar los mandamientos de Dios y a andar rectamente ante él».</p>
+          <cite class="escritura__fuente">Alma 53:20–21</cite>
+        </blockquote>
       </div>
     </div>
+
+    <section class="seccion seccion--menta" id="lugar" aria-labelledby="titulo-lugar">
+      <div class="container">
+        <h2 class="seccion__titulo" id="titulo-lugar">El lugar</h2>
+        <p class="seccion__entrada">CampoBase Suesca queda en Suesca, Cundinamarca, entre los farallones y la vía del tren.</p>
+
+        <p class="lugar__acciones">
+          <a class="boton boton--contorno boton--compacto"
+             href="https://maps.app.goo.gl/NHAA49A3z4HpjE9z5" target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-mapa"></use></svg><span>Abrir en Google Maps</span></a>
+          <a class="boton boton--contorno boton--compacto"
+             href="https://www.instagram.com/suescacampobase/" target="_blank" rel="noopener">
+            <svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-ig"></use></svg><span>Ver en Instagram</span></a>
+        </p>
+
+        <ul class="galeria" id="galeria">
+          <li class="galeria__celda">
+            <button class="galeria__boton" type="button" data-indice="0"
+                    data-grande="assets/images/lugar-1.webp" data-ancho="684" data-alto="689">
+              <img src="assets/images/lugar-1-480.webp" width="480" height="484" loading="lazy" decoding="async"
+                   alt="Vía del tren entre dos paredes de roca; una persona camina por el sendero con su perro.">
+              <span class="visually-hidden">Ampliar la foto 1 de 5</span>
+            </button>
+          </li>
+          <li class="galeria__celda">
+            <button class="galeria__boton" type="button" data-indice="1"
+                    data-grande="assets/images/lugar-2.webp" data-ancho="685" data-alto="513">
+              <img src="assets/images/lugar-2-480.webp" width="480" height="359" loading="lazy" decoding="async"
+                   alt="Pradera verde con fogones de piedra, bosque y montañas al fondo bajo un cielo azul.">
+              <span class="visually-hidden">Ampliar la foto 2 de 5</span>
+            </button>
+          </li>
+          <li class="galeria__celda">
+            <button class="galeria__boton" type="button" data-indice="2"
+                    data-grande="assets/images/lugar-3.webp" data-ancho="684" data-alto="505">
+              <img src="assets/images/lugar-3-480.webp" width="480" height="354" loading="lazy" decoding="async"
+                   alt="Casa de techo de teja en medio del potrero, con un árbol grande y una cerca de madera adelante.">
+              <span class="visually-hidden">Ampliar la foto 3 de 5</span>
+            </button>
+          </li>
+          <li class="galeria__celda">
+            <button class="galeria__boton" type="button" data-indice="3"
+                    data-grande="assets/images/lugar-4.webp" data-ancho="545" data-alto="685">
+              <img src="assets/images/lugar-4-480.webp" width="480" height="603" loading="lazy" decoding="async"
+                   alt="Vista aérea de los farallones de Suesca: un acantilado largo sobre campos verdes y nubes.">
+              <span class="visually-hidden">Ampliar la foto 4 de 5</span>
+            </button>
+          </li>
+          <li class="galeria__celda">
+            <button class="galeria__boton" type="button" data-indice="4"
+                    data-grande="assets/images/lugar-5.webp" data-ancho="546" data-alto="678">
+              <img src="assets/images/lugar-5-480.webp" width="480" height="596" loading="lazy" decoding="async"
+                   alt="Vía del tren en la mañana, con niebla espesa entre la montaña y los sauces.">
+              <span class="visually-hidden">Ampliar la foto 5 de 5</span>
+            </button>
+          </li>
+        </ul>
+
+        <div class="lugar__medios">
+          <div class="lugar__medio">
+            <h3 class="subtitulo">Dónde queda</h3>
+            <!-- El iframe es diferido: no pesa nada hasta que se llega a esta altura. -->
+            <div class="lugar__marco ratio ratio-16x9">
+              <iframe src="https://www.google.com/maps?q=Campo+Base+Suesca&amp;ll=5.0983646,-73.7847352&amp;z=14&amp;output=embed"
+                      title="Mapa de CampoBase Suesca, Suesca, Cundinamarca"
+                      loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                      allowfullscreen></iframe>
+            </div>
+            <p class="lugar__pie">Suesca, Cundinamarca · a unas dos horas de Bogotá.</p>
+          </div>
+
+          <div class="lugar__medio">
+            <h3 class="subtitulo">Mira el lugar en video</h3>
+            <div class="video ratio ratio-16x9" id="video">
+              <button class="video__fachada" type="button" id="video-boton"
+                      aria-label="Reproducir el video de CampoBase Suesca">
+                <img class="video__miniatura" src="https://i.ytimg.com/vi/KaUJCYGtr-c/hqdefault.jpg"
+                     width="480" height="360" loading="lazy" decoding="async" alt="">
+                <span class="video__play" aria-hidden="true"></span>
+              </button>
+            </div>
+            <p class="lugar__pie">Video del propio CampoBase Suesca.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion seccion--noche seccion--centrada" id="inscripcion" aria-labelledby="titulo-inscripcion">
+      <div class="container">
+        <h2 class="seccion__titulo" id="titulo-inscripcion">Cómo inscribirte</h2>
+        <p class="seccion__entrada">Cuatro pasos, en este orden. Empieza hoy por el primero.</p>
+
+        <ol class="camino">
+          <li class="camino__paso">
+            <h3 class="camino__titulo">Llena el formulario de inscripción</h3>
+            <p class="camino__texto">Son unos minutos y con eso quedas en la lista del campamento.</p>
+            <a class="boton boton--principal boton--compacto" data-inscripcion
+               href="https://forms.gle/mnEHFAzVLtoWQJhC9" target="_blank" rel="noopener">Llenar inscripción</a>
+          </li>
+          <li class="camino__paso">
+            <h3 class="camino__titulo">Descarga el permiso y pídeles la firma a tus papás</h3>
+            <p class="camino__texto">En la carpeta están el formato de permiso y la lista de equipaje.</p>
+            <a class="boton boton--claro boton--compacto"
+               href="https://drive.google.com/drive/folders/1vUrMaF_v2r4k-duWjwaQbJXCi9vCJgar?usp=sharing" target="_blank" rel="noopener">Descargar permiso</a>
+          </li>
+          <li class="camino__paso">
+            <h3 class="camino__titulo">Sube el permiso firmado y tus documentos</h3>
+            <p class="camino__texto">El permiso, la copia de la tarjeta de identidad y la del carné de la EPS, en PDF.</p>
+            <a class="boton boton--claro boton--compacto"
+               href="https://forms.gle/CmAqJTEAQYdkES7P6" target="_blank" rel="noopener">Subir documentos</a>
+          </li>
+          <li class="camino__paso">
+            <h3 class="camino__titulo">Alista tu equipaje</h3>
+            <p class="camino__texto">Marca la lista desde tu celular mientras empacas; queda guardada.</p>
+            <a class="boton boton--claro boton--compacto" href="#equipaje">Ver lista</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- ===================== EQUIPAJE ===================== -->
+    <section class="seccion" id="equipaje" aria-labelledby="titulo-equipaje">
+      <div class="container">
+        <h2 class="seccion__titulo" id="titulo-equipaje">Qué llevar</h2>
+        <p class="seccion__entrada">Ve marcando mientras empacas. Lo que marques queda guardado en este celular.</p>
+
+        <div class="progreso" id="equipaje-progreso" hidden>
+          <p class="progreso__conteo" id="equipaje-conteo" aria-live="polite">
+            <span data-progreso-texto>0 de 22 listos</span>
+            <span class="progreso__porcentaje" data-progreso-porcentaje></span>
+          </p>
+          <progress class="progreso__barra" id="equipaje-barra" max="22" value="0"></progress>
+        </div>
+
+        <form class="equipaje" id="equipaje-lista">
+
+          <fieldset class="grupo grupo--azul">
+            <legend class="grupo__titulo">Documentos<span class="grupo__marcador" data-marcador hidden></span></legend>
+            <p class="grupo__nota">Además de llevarlos en físico, sube la copia en PDF con el formulario <a class="enlace" href="https://forms.gle/CmAqJTEAQYdkES7P6" target="_blank" rel="noopener">Subir documentos</a>.</p>
+            <ul class="lista">
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-doc-1"><label class="lista__etiqueta" for="eq-doc-1">Fotocopia del certificado o carné de afiliación a la EPS</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-doc-2"><label class="lista__etiqueta" for="eq-doc-2">Fotocopia de la tarjeta de identidad</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-doc-3"><label class="lista__etiqueta" for="eq-doc-3">Permiso de los padres diligenciado y firmado</label></li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="grupo grupo--teal">
+            <legend class="grupo__titulo">Para tu estudio<span class="grupo__marcador" data-marcador hidden></span></legend>
+            <ul class="lista">
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-est-1"><label class="lista__etiqueta" for="eq-est-1">Escrituras físicas (Libro de Mormón, Doctrina y Convenios, Biblia) e himnario</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-est-2"><label class="lista__etiqueta" for="eq-est-2">Diario de estudio y lápices</label></li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="grupo grupo--verde">
+            <legend class="grupo__titulo">Ropa y calzado<span class="grupo__marcador" data-marcador hidden></span></legend>
+            <ul class="lista">
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-rop-1"><label class="lista__etiqueta" for="eq-rop-1">Ropa para 3 días, más ropa que se pueda ensuciar (incluye ropa interior y medias)</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-rop-2"><label class="lista__etiqueta" for="eq-rop-2">Zapatos cómodos antideslizantes y otro par para ensuciar</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-rop-3"><label class="lista__etiqueta" for="eq-rop-3">Botas pantaneras (opcional)</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-rop-4"><label class="lista__etiqueta" for="eq-rop-4">Ropa para lluvia (impermeable, paraguas)</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-rop-5"><label class="lista__etiqueta" for="eq-rop-5">Pijama</label></li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="grupo grupo--noche">
+            <legend class="grupo__titulo">Aseo y salud<span class="grupo__marcador" data-marcador hidden></span></legend>
+            <ul class="lista">
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-ase-1"><label class="lista__etiqueta" for="eq-ase-1">Elementos de aseo personal (toalla, cepillo, desodorante, crema dental)</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-ase-2"><label class="lista__etiqueta" for="eq-ase-2">Papel higiénico</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-ase-3"><label class="lista__etiqueta" for="eq-ase-3">Protector solar y repelente de mosquitos</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-ase-4"><label class="lista__etiqueta" for="eq-ase-4">Medicamentos con fórmula médica, si tomas alguno</label></li>
+            </ul>
+          </fieldset>
+
+          <fieldset class="grupo grupo--dorado">
+            <legend class="grupo__titulo">Para el campamento<span class="grupo__marcador" data-marcador hidden></span></legend>
+            <ul class="lista">
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-1"><label class="lista__etiqueta" for="eq-cam-1">Menaje de plástico (plato, cubiertos, vaso); no de aluminio, vidrio ni desechable</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-2"><label class="lista__etiqueta" for="eq-cam-2">Linterna, preferiblemente de baterías</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-3"><label class="lista__etiqueta" for="eq-cam-3">Cobijas, sábana, sleeping o colchoneta delgada (si tienes)</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-4"><label class="lista__etiqueta" for="eq-cam-4">Plástico grueso (calibre 6 recomendado), ideal de 4 × 4 m</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-5"><label class="lista__etiqueta" for="eq-cam-5">Pito</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-6"><label class="lista__etiqueta" for="eq-cam-6">Lazo o cuerda suficiente</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-7"><label class="lista__etiqueta" for="eq-cam-7">2 palos de escoba</label></li>
+              <li class="lista__item"><input class="lista__casilla" type="checkbox" id="eq-cam-8"><label class="lista__etiqueta" for="eq-cam-8">Bolsa para la ropa sucia, bolsa para tu basura y bolsa impermeable para tus cosas personales</label></li>
+            </ul>
+          </fieldset>
+
+        </form>
+
+        <div class="equipaje__acciones">
+          <button class="boton boton--contorno boton--compacto" type="button" id="equipaje-reiniciar" hidden>Reiniciar lista</button>
+          <button class="boton boton--contorno boton--compacto" type="button" id="equipaje-imprimir" hidden>Imprimir lista</button>
+          <a class="boton boton--contorno boton--compacto"
+             href="https://drive.google.com/drive/folders/1vUrMaF_v2r4k-duWjwaQbJXCi9vCJgar?usp=sharing" target="_blank" rel="noopener">Descargar formatos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LÍDERES ===================== -->
+    <section class="seccion seccion--menta" id="lideres" aria-labelledby="titulo-lideres">
+      <div class="container">
+        <h2 class="seccion__titulo" id="titulo-lideres">A quién preguntarle</h2>
+        <p class="seccion__entrada">Escríbele por WhatsApp al líder de tu barrio o a los líderes de estaca.</p>
+
+        <h3 class="subtitulo" id="titulo-estaca">Estaca</h3>
+        <ul class="lideres" aria-labelledby="titulo-estaca">
+          <li class="lider">
+            <p class="lider__nombre">Camilo Camargo</p>
+            <p class="lider__cargo">Consejero de estaca</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573003132438" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Camilo Camargo"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>300 313 2438</span></a>
+              <a class="lider__tel" href="tel:+573003132438">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <p class="lider__nombre">Pedro A. Salinas</p>
+            <p class="lider__cargo">Presidente de Hombres Jóvenes de estaca</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573164154764" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Pedro A. Salinas"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>316 415 4764</span></a>
+              <a class="lider__tel" href="tel:+573164154764">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <p class="lider__nombre">Anny Quiñones</p>
+            <p class="lider__cargo">Presidenta de Mujeres Jóvenes de estaca</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573172956873" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Anny Quiñones"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>317 295 6873</span></a>
+              <a class="lider__tel" href="tel:+573172956873">Llamar</a>
+            </div>
+          </li>
+        </ul>
+
+        <h3 class="subtitulo" id="titulo-barrios">Barrios</h3>
+        <!-- TODO: confirmar que todos los líderes autorizaron publicar su celular. Si la respuesta es "solo estaca", cambia arriba data-telefonos="todos" por data-telefonos="estaca" en la etiqueta <body> y los números de los barrios dejan de mostrarse. -->
+        <ul class="lideres lideres--barrios" aria-labelledby="titulo-barrios">
+          <li class="lider">
+            <p class="lider__nombre">Franklyn Navarro</p>
+            <p class="lider__cargo">Obispo · Barrio Fontibón</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573007008644" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Franklyn Navarro"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>300 700 8644</span></a>
+              <a class="lider__tel" href="tel:+573007008644">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <p class="lider__nombre">Manuel López</p>
+            <p class="lider__cargo">Obispo · Barrio Kennedy I</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573147871615" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Manuel López"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>314 787 1615</span></a>
+              <a class="lider__tel" href="tel:+573147871615">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <p class="lider__nombre">Sergio Rincón</p>
+            <p class="lider__cargo">Obispo · Barrio Kennedy II</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573138186725" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Sergio Rincón"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>313 818 6725</span></a>
+              <a class="lider__tel" href="tel:+573138186725">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <!-- TODO: verificar si el nombre del obispo de Banderas lleva tilde (Aarón / Aaron). -->
+            <p class="lider__nombre">Aarón Palacio</p>
+            <p class="lider__cargo">Obispo · Barrio Banderas</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573177747369" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Aarón Palacio"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>317 774 7369</span></a>
+              <a class="lider__tel" href="tel:+573177747369">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <p class="lider__nombre">Mario Ospina</p>
+            <p class="lider__cargo">Consejero del obispado · Barrio Marsella</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573123955374" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Mario Ospina"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>312 395 5374</span></a>
+              <a class="lider__tel" href="tel:+573123955374">Llamar</a>
+            </div>
+          </li>
+          <li class="lider">
+            <p class="lider__nombre">Andrés Londoño</p>
+            <p class="lider__cargo">Obispo · Barrio Modelia</p>
+            <div class="lider__contacto">
+              <a class="lider__wa" href="https://wa.me/573103390482" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a Andrés Londoño"><svg class="ico" aria-hidden="true" focusable="false"><use href="#ico-wa"></use></svg><span>310 339 0482</span></a>
+              <a class="lider__tel" href="tel:+573103390482">Llamar</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== PREGUNTAS ===================== -->
+    <section class="seccion" id="preguntas" aria-labelledby="titulo-preguntas">
+      <div class="container">
+        <h2 class="seccion__titulo" id="titulo-preguntas">Preguntas frecuentes</h2>
+
+        <div class="accordion faq" id="faq">
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">
+                ¿Dónde es el campamento?
+              </button>
+            </h3>
+            <div class="accordion-collapse collapse" id="faq-1" data-bs-parent="#faq">
+              <div class="accordion-body">
+                <p>En CampoBase Suesca, en el municipio de Suesca (Cundinamarca). En <a class="enlace" href="#lugar">El lugar</a> puedes ver fotos y un video.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">
+                ¿Qué días son?
+              </button>
+            </h3>
+            <div class="accordion-collapse collapse" id="faq-2" data-bs-parent="#faq">
+              <div class="accordion-body">
+                <p>Del lunes 5 al miércoles 7 de octubre de 2026. La hora de salida y la de regreso las confirmamos pronto en <a class="enlace" href="#informacion">Información</a>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">
+                ¿Qué tengo que llevar?
+              </button>
+            </h3>
+            <div class="accordion-collapse collapse" id="faq-3" data-bs-parent="#faq">
+              <div class="accordion-body">
+                <p>La lista completa está en <a class="enlace" href="#equipaje">Qué llevar</a>, agrupada por documentos, estudio, ropa, aseo y campamento. Puedes marcarla desde el celular e imprimirla.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">
+                ¿Cómo entrego el permiso y los documentos?
+              </button>
+            </h3>
+            <div class="accordion-collapse collapse" id="faq-4" data-bs-parent="#faq">
+              <div class="accordion-body">
+                <p>Descarga el formato en <a class="enlace" href="https://drive.google.com/drive/folders/1vUrMaF_v2r4k-duWjwaQbJXCi9vCJgar?usp=sharing" target="_blank" rel="noopener">Formatos</a>, pídeles a tus papás que lo firmen y sube el PDF —junto con la copia de tu tarjeta de identidad y la del carné de la EPS— en el formulario <a class="enlace" href="https://forms.gle/CmAqJTEAQYdkES7P6" target="_blank" rel="noopener">Subir documentos</a>. Lleva también las copias en físico el día de la salida.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                ¿A quién le escribo si tengo una duda?
+              </button>
+            </h3>
+            <div class="accordion-collapse collapse" id="faq-5" data-bs-parent="#faq">
+              <div class="accordion-body">
+                <p>Al líder de tu barrio o a los líderes de estaca; están en <a class="enlace" href="#lideres">A quién preguntarle</a>. También puedes dejar tu pregunta en el formulario de abajo.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TODO: agregar estas preguntas cuando se confirmen los datos de la sección Información:
+               · ¿Cuánto cuesta y qué incluye?
+               · ¿Desde qué edad puedo ir?
+               · ¿Dónde y a qué hora nos encontramos, y a qué hora regresamos?
+               · ¿Hasta cuándo puedo inscribirme?
+          -->
+
+        </div>
+
+        <p class="preguntas__accion">
+          <a class="boton boton--contorno" href="https://forms.gle/J5qbbUBtyUKkN6nc7" target="_blank" rel="noopener">Enviar una pregunta</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <div class="franjas" aria-hidden="true">
+      <span class="franjas__linea franjas__linea--1"></span>
+      <span class="franjas__linea franjas__linea--2"></span>
+      <span class="franjas__linea franjas__linea--3"></span>
+    </div>
+    <div class="container pie__contenido">
+      <div class="pie__marca" id="pie-marca">
+        <img class="pie__logo" src="assets/images/logo-campamento.png" alt="" width="99" height="34" loading="lazy">
+        <p class="pie__estaca">Estaca Kennedy · Bogotá</p>
+      </div>
+      <nav class="pie__enlaces" aria-label="Enlaces del pie de página">
+        <a href="#informacion">Información</a>
+        <a href="#lugar">Lugar</a>
+        <a href="#inscripcion">Inscripción</a>
+        <a href="#equipaje">Qué llevar</a>
+        <a href="#lideres">Líderes</a>
+        <a href="https://forms.gle/J5qbbUBtyUKkN6nc7" target="_blank" rel="noopener">Enviar una pregunta</a>
+      </nav>
+      <p class="pie__nota">Sitio informativo del campamento de la Estaca Kennedy.</p>
+    </div>
+  </footer>
+
+  <div class="barra-movil" id="barra-movil" data-inscripcion hidden>
+    <a class="boton boton--principal" href="https://forms.gle/mnEHFAzVLtoWQJhC9" target="_blank" rel="noopener">Inscríbete</a>
   </div>
-</div>
-     <!-- /Modal -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
-    <script>
-document.addEventListener('DOMContentLoaded', function () {
 
-    const modal = document.getElementById('staticBackdrop');
-    const carousel = document.getElementById('carouselExample');
-    const video = document.getElementById('youtubeVideo');
+  <dialog class="visor" id="visor" aria-label="Fotos de CampoBase Suesca">
+    <figure class="visor__marco">
+      <img class="visor__imagen" id="visor-imagen" src="" alt="" width="684" height="689" decoding="async">
+      <figcaption class="visor__conteo" id="visor-conteo"></figcaption>
+    </figure>
+    <button class="visor__control visor__control--anterior" type="button" id="visor-anterior" aria-label="Foto anterior">‹</button>
+    <button class="visor__control visor__control--siguiente" type="button" id="visor-siguiente" aria-label="Foto siguiente">›</button>
+    <button class="visor__cerrar" type="button" id="visor-cerrar" aria-label="Cerrar las fotos">Cerrar</button>
+  </dialog>
 
-    const videoSrc = video.src;
-
-    // Reinicia el video
-    function reiniciarVideo() {
-        video.src = '';
-        video.src = videoSrc;
-    }
-
-    // Cuando empieza a cambiar de diapositiva
-    carousel.addEventListener('slide.bs.carousel', function (event) {
-
-        const items = carousel.querySelectorAll('.carousel-item');
-        const videoItem = video.closest('.carousel-item');
-
-        const videoIndex = Array.from(items).indexOf(videoItem);
-
-        // Si estamos saliendo de la diapositiva del video
-        if (event.from === videoIndex) {
-            video.src = '';
-        }
-    });
-
-    // Cuando llegamos a una nueva diapositiva
-    carousel.addEventListener('slid.bs.carousel', function (event) {
-
-        const items = carousel.querySelectorAll('.carousel-item');
-        const videoItem = video.closest('.carousel-item');
-
-        const videoIndex = Array.from(items).indexOf(videoItem);
-
-        // Si llegamos a la diapositiva del video
-        if (event.to === videoIndex) {
-            video.src = videoSrc;
-        }
-    });
-
-    // Cuando cerramos el modal
-    modal.addEventListener('hidden.bs.modal', function () {
-
-        // Detener completamente el video
-        video.src = '';
-
-        // Volver al primer slide
-        const carouselInstance =
-            bootstrap.Carousel.getOrCreateInstance(carousel);
-
-        carouselInstance.to(0);
-    });
-
-});
-</script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
 </html>
